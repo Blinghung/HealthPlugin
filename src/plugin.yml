@@ -1,0 +1,14 @@
+name: HealthPlugin
+main: com.fsscripts.bentzilla.Health
+version: 0.1
+website: http://forums.bukkit.org
+authors:
+  - bentzilla
+description: Shows the health of each player as they chat
+commands:
+  showhealth:
+    description: Health Command
+    usage: /showhealth
+  health:
+    description: Health Command
+    usage: /health
