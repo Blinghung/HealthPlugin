@@ -18,10 +18,6 @@ public class Health extends JavaPlugin {
     public final static HashMap<Player, ArrayList<Block>> healthUsers = new HashMap();  
     private final HPlayerChatListener ThePlayerListener = new HPlayerChatListener(this);
     
-    public Health(PluginLoader pluginLoader, Server instance, PluginDescriptionFile desc, File folder, File plugin, ClassLoader cLoader) {
-        super();
-    }
-
 	public void onDisable() {
 		System.out.println("HealthPlugin Disabled");
 	}
